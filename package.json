@@ -1,0 +1,17 @@
+{
+  "name": "node-twitter-sign-in-example",
+  "version": "1.0.0",
+  "description": "An example application describing how to implement sign-in with Twitter for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Harrington",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "node-twitter-api": "^1.6.0"
+  }
+}
