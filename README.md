@@ -6,6 +6,16 @@ Clone, then install modules:
 npm install
 ```
 
+You'll need to create lib/secret.json that contains your credentials for interacting with Twitter. It should take this format:
+
+{
+  "twitter_keys": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "callbackURL": ""
+  }
+}
+
 Run the server by executing `index.js`:
 
 ```
