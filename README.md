@@ -10,7 +10,7 @@ You'll need to create lib/secret.json that contains your credentials for interac
 
 ```
 {
-  "twitter_keys": {
+  "twitter": {
     "consumer_key": "",
     "consumer_secret": "",
     "callbackURL": ""
